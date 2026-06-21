@@ -1,4 +1,4 @@
-# ENVIX_v1.0_windows
+# ENVIX_v0.4.0_windows
 
 ENVIX - Dev Environment Setup Tool
 
