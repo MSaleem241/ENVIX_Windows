@@ -1,2 +1,0 @@
-pip install customtkinter
-python gui.py

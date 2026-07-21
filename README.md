@@ -1,157 +1,178 @@
-# ENVIX  — Dev Environment Manager
+# ENVIX — Dev Environment Manager
 
 Stop wasting time setting up development environments.
 
-ENVIX is a simple tool that installs, configures, and fixes programming environments on Windows — so you can start coding instantly.
+ENVIX is a modern desktop application that installs, configures, and fixes development environments on Windows — so you can start coding in minutes, not hours.
 
 ---
 
-##  What Problem Does ENVIX Solve?
+## What Problem Does ENVIX Solve?
 
 Developers often spend:
 
-- 15–30 minutes setting up environments  
-- fixing PATH errors  
-- watching tutorials for configuration  
-- reinstalling tools for every new project  
+- 15–30 minutes setting up environments
+- fixing PATH errors
+- watching tutorials for configuration
+- reinstalling tools for every new project
 
 ENVIX removes that pain.
 
 ---
 
-##  What ENVIX Does
+## What ENVIX Does
 
-With one click, ENVIX can:
+With just a few clicks, ENVIX can:
 
- Install programming languages (Python, Node.js, Java, Go)  
- Install essential tools (Git, VS Code, Docker)  
- Automatically configure system PATH  
- Detect and fix environment issues (Doctor feature)  
- Create ready-to-use project setups (Presets)
+- Install programming languages (Python, Node.js, Java, Go)
+- Install essential developer tools (Git, VS Code, Docker)
+- Automatically configure your system PATH
+- Detect and fix environment issues (Doctor)
+- Create complete development environments using Presets
+- Install popular development packages from the new Package Hub
 
 ---
 
-##  Features
+# Features
 
-###  1. Language Installer
-Install languages without manual setup or configuration errors.
+### 1. Language Installer
 
-###  2. Tools Setup
-Get Git, VS Code, Docker installed and ready instantly.
+Install programming languages without manual setup or configuration errors.
 
-###  3. Project Presets
-Create complete dev environments like:
+### 2. Tools Setup
+
+Install developer tools like Git, VS Code, Docker, and more with a single click.
+
+### 3. Project Presets
+
+Create complete development environments for:
+
 - Web Development
-- Backend (Python / Node)
+- Backend (Python)
+- Backend (Node.js)
 - Fullstack
 - AI / ML
 - Data Science
+- Game Development
 
-Everything is pre-configured and ready to run.
+Everything is pre-configured and ready to use.
 
-###  4. Doctor (Diagnostics)
+### 4. Package Hub ⭐ NEW
+
+Browse and install popular development packages directly from ENVIX.
+
+No more searching for package names or remembering installation commands.
+
+### 5. Doctor (Diagnostics)
+
 Scans your system and:
-- detects missing tools  
-- finds broken configurations  
-- fixes common PATH issues  
+
+- Detects missing tools
+- Finds broken configurations
+- Fixes common PATH issues
 
 ---
 
-##  Safety & Transparency
+## Faster & Smoother UI
 
-ENVIX is **fully transparent**:
-
-- No hidden processes  
-- No background tracking  
-- You can review the full source code  
-
-⚠️ Note: ENVIX installs software and modifies environment variables (PATH), which requires system permissions.
+ENVIX has been rebuilt using **Tauri + React**, making the application significantly faster, lighter, and smoother than the original version while keeping the same simple workflow.
 
 ---
 
-##  Screenshots
+## Safety & Transparency
 
-![alt text](ss1.png)
-![alt text](ss2.png)
-![alt text](ss3.png)
+ENVIX is fully transparent.
 
----
+- No hidden processes
+- No background tracking
+- Open source
 
-##  Current Status
-
-ENVIX is in **early stage (MVP)**.
-
-We are actively improving it based on developer feedback.
+⚠️ ENVIX installs software and modifies environment variables (PATH), which requires administrator permissions.
 
 ---
 
-##  Why We Built This
+# Screenshots
 
-We faced the same problem:
+![Home](ss1.png)
 
-> Setting up environments was slow, repetitive, and frustrating.
+![Languages](ss2.png)
 
-ENVIX is built to eliminate that friction for developers.
+![Doctor](ss3.png)
 
----
-
-##  Installation
-
-1. Go to the Releases section  
-2. Download the `.exe` file
-3. When you run the app, Windows may show a WARNING like:
-
-“Windows protected your PC”
-
-This happens because the app is not digitally signed.  
-
-To run it:
-Click More info
-Click Run anyway
-
-4. Run the application  
-
-(No Python installation required)
+![Package Hub](ss4.png)
 
 ---
 
-##  Tech Stack
+## Current Status
 
-- Python  
-- CustomTkinter (GUI)  
-- PyInstaller (packaging)
+ENVIX is currently in the MVP stage and is actively being improved based on developer feedback.
 
 ---
 
-##  Feedback
+## Why ENVIX?
 
-We are actively looking for feedback.
+I built ENVIX because I experienced the same frustration every time I switched technologies or set up a new machine.
+
+Instead of repeatedly installing tools, fixing configuration issues, and searching for setup guides, I wanted a single application that could prepare my development environment in minutes.
+
+---
+
+## Installation
+
+1. Go to the **Releases** section.
+2. Download the latest **.exe** installer.
+3. Install ENVIX.
+4. If Windows SmartScreen appears, click:
+   - **More info**
+   - **Run anyway**
+5. Launch ENVIX.
+
+No Python installation is required.
+
+---
+
+## Tech Stack
+
+- Python
+- FastAPI
+- React
+- TypeScript
+- Tauri
+- PyInstaller
+
+---
+
+## Feedback
+
+I'm actively looking for feedback.
 
 If you:
-- faced issues  
-- have suggestions  
-- want new features  
 
-Open an issue or reach out.
+- Encounter bugs
+- Have feature requests
+- Have suggestions
 
----
-
-##  Roadmap (Planned)
-
-- Linux support  
-- AI-powered environment recommendations  
-- smarter diagnostics  
-- team/shared environments  
+Please open an Issue or contact me.
 
 ---
 
-##  Team
+## Roadmap
 
-Built by 2 developers passionate about simplifying development workflows.
+- Linux support
+- AI-powered VibeConfig
+- Smarter diagnostics
+- Enterprise management
+- Team environments
 
 ---
 
-##  Support
+## Team
 
-If you find ENVIX useful, consider giving it a star ⭐  
-It helps a lot in growing the project.
+Built by a solo founder passionate about simplifying developer workflows.
+
+---
+
+## Support
+
+If you find ENVIX useful, please consider giving the repository a ⭐.
+
+It helps the project reach more developers.
