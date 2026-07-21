@@ -92,13 +92,13 @@ ENVIX is fully transparent.
 
 # Screenshots
 
-![Home](ss1.png)
+![Languages](screenshot/ss1.png)
 
-![Languages](ss2.png)
+![Package_hub](screenshot/ss2.png)
 
-![Doctor](ss3.png)
+![Presets](screenshot/ss3.png)
 
-![Package Hub](ss4.png)
+![Doctor](screenshot/ss4.png)
 
 ---
 
